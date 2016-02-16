@@ -1,0 +1,5 @@
+#### Example
+# command!ignore
+###
+set cli pager off
+show config running

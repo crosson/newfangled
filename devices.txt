@@ -1,0 +1,7 @@
+##Seattle Lab
+corporateswitch.mydomain.com:ios:seattle:up
+datacenterswitch.mydomain.com:nexos:seattle:down
+#Portland
+ltm1.q.mynetwork.com:f5:portland:up
+ltm2.q.mynetwork.com:f5:portland:up
+apic.q.mynetwork.com:aci:portland:up
