@@ -12,10 +12,10 @@ Due to the simplicity of targeting spcific hosts and ease of dictating commands 
 
 1. Clone the project to a folder on a server where
 2. Create your login files and passwords
-...* These files should be protected to your cron user only, similar to rancid. These files store the passwords required to login into your network equipment as well as check in configuration changes.
-...* add your svn user's password to the 'svn_login' file. Make sure its permissions are safely set.
-...* Add your device users passwrod to the 'login' file. Make sure its permissions are safely set.
-...* The svn username and device username are found in parse_config.py starting at line 124. 
+..* These files should be protected to your cron user only, similar to rancid. These files store the passwords required to login into your network equipment as well as check in configuration changes.
+..* add your svn user's password to the 'svn_login' file. Make sure its permissions are safely set.
+..* Add your device users passwrod to the 'login' file. Make sure its permissions are safely set.
+..* The svn username and device username are found in parse_config.py starting at line 124. 
 3. The project was originaly built with SVN. You will want to make a new SVN repository in this folder and setup your SVN user for checking in new backed up configuration.
 4. Add a single device to the device.txt file commenting out the rest. Set whatver commands you wish to run on the associated devices OS txt file.
 5. Run parse_config.py and validate that you can scrape config from a device.
