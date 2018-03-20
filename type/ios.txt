@@ -1,7 +1,6 @@
 #### Example
 # command!ignore
 ###
-term len 0
 show ver!Uptime!uptime!System restarted!PCIFWL01 up!switched to active is
 show ip int brie!unassigned
 show inventory

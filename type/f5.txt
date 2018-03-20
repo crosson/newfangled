@@ -1,0 +1,7 @@
+#### Example
+# command!ignore
+###
+tmsh -q -c "cd /; list recursive"!status!session monitor!state up!state down!Active:In!errors Sync!Active:Disconnected!last-checked
+tmsh -q list ltm virtual-address
+tmsh -q show sys hardware | grep "Chassis Serial"
+cat /config/zebos/rd0/ZebOS.conf

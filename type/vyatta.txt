@@ -1,0 +1,2 @@
+vbash -c -i "show version"!Uptime
+vbash -c -i "show configuration commands | no-more"!secret '

@@ -1,0 +1,16 @@
+show chassis cluster status | no-more
+show chassis clocks | no-more
+show chassis firmware | no-more
+show chassis hardware detail | no-more
+show chassis scb | no-more
+show chassis sfm detail | no-more
+show chassis ssb | no-more
+show chassis feb detail | no-more
+show chassis feb | no-more
+show chassis cfeb | no-more
+show chassis alarms | no-more
+show system license | no-more
+show system boot-messages | no-more
+show system core-dumps | no-more
+show version detail | no-more
+show configuration | display set  | no-more

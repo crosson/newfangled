@@ -1,4 +1,0 @@
-#### Example
-# command!ignore
-###
-tmsh -q list!status!session monitor!state up!state down!Active:In Sync!Active:Disconnected
